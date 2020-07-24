@@ -4,8 +4,8 @@ require './testrail-api-master/ruby/testrail.rb'
 require 'pp'
 
 $my_testrail_url        = 'https://tsrally.testrail.com'
-$my_testrail_user       = 'technical-services@rallydev.com'
-$my_testrail_password   = 'RallyDev123'
+$my_testrail_user       = 'nil'
+$my_testrail_password   = 'nil'
 
 def get_testrail_connection()
     @tr_con         = nil
